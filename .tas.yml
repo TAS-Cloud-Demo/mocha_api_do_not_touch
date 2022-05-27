@@ -2,13 +2,15 @@
 framework: mocha
 postMerge: 
   pattern: 
-    - "test/**/*.spec.js"
+    - "test/**/*.speefdec.js"
+    - "test/specs/factorialShort.spec.js"
 postRun: 
   command: 
     - "node --version"  
 preMerge: 
   pattern: 
-    - "test/**/*.spec.js"
+    - "test/**/*.spvffec.js"
+    - "test/specs/factorialShort.spec.js"
 preRun: 
   command: 
     - npm ci
